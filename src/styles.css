@@ -1,16 +1,23 @@
 .card {
   font-family: "Spectral", serif;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  max-width: 30rem;
+  color: rebeccapurple;
 }
 
 h1 {
   color: rebeccapurple;
   text-align: center;
   font-style: bold;
+  margin-bottom: 15px;
 }
 
 img {
   max-width: 250px;
   margin-bottom: 30px;
+}
+.list {
+  font-style: bold;
 }
 
 p {

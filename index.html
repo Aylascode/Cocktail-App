@@ -21,9 +21,33 @@
       <div class="card-body">
         <h1>Cocktails</h1>
         <div class="row">
-          <div class="col-6"></div>
-          <div class="col-6">
+          <div class="col-4">
+            <div class="row"><span class="list">Ingredient</span></div>
+            <div class="row"><span class="list">Cocktail Name</span></div>
+            <div class="row"><span class="list">Cocktail type</span></div>
+            <div class="row"><span class="list">Mocktails</span></div>
+          </div>
+          <div class="col-4">
             <img src="media/cocktail.jpg" />
+          </div>
+              <form class="form-inline form align-items-centre" id="searchBar">
+                <div class="form-inline">
+                  <input
+                    type="city"
+                    class="form-control mb-3 mr-1"
+                    placeholder="Search..."
+                    autocomplete="off"
+                    autofocus="on"
+                    id="search"
+                  />
+                </div>
+                <button type="submit" class="btn btn-outline-secondary rounded mb-3 mr-5 ml-2">
+                  Go
+                </button>
+              </form>
+              <form action="search"></form>
+              <span class=""></span>
+              <div class="btn btn-outline-secondary">Surprise me!</div>
           </div>
         </div>
       </div>
