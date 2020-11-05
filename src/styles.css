@@ -1,3 +1,14 @@
+.card {
+  font-family: "Spectral", serif;
+}
+
 h1 {
   color: rebeccapurple;
+  text-align: center;
+  font-style: bold;
+}
+
+img {
+  max-width: 250px;
+  margin-bottom: 30px;
 }
